@@ -30,5 +30,16 @@ target 'KwikCheck' do
       :mac_catalyst_enabled => false,
       # :ccache_enabled => true
     )
+    
+    # Configure react-native-vector-icons
+    installer.pods_project.targets.each do |target|
+      if target.name == 'react-native-vector-icons'
+        phase = target.source_build_phase
+        DirOffsetPhase = phase.class.new(target, 'Source')
+        DirOffsetPhase.instance_variable_set('@name', 'Copy Fonts')
+        DirOffsetPhase.real_path = File.join(target.real_path, 'Fonts')
+        target.build_phases << DirOffsetPhase
+      end
+    end
   end
 end

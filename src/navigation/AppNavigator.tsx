@@ -1,0 +1,76 @@
+import React from 'react';
+import { createStackNavigator } from "@react-navigation/stack";
+import { createDrawerNavigator } from "@react-navigation/drawer";
+import CustomDrawerContent from '../components/CustomDrawerContent';
+
+// SCREENS
+import DashBoard from '../pages/DashBoard/DashBoard'
+import CreateLeads from '../pages/CreateLeads/CreateLeads';
+import ValuatePage from '../pages/Valuate/index'
+import MyTaskPage from '../pages/MyTasks/index';
+import ValuationCompletedLeads from '../pages/ValuationCompletedLeads/index';
+import LeadsInProgress from '../pages/LeadsInProgress/index';
+import CompletedLeads from '../pages/CompletedLeads/CompletedLeads'
+import Account from '../pages/Account/Account';
+import CustomCamera from '../components/CustomCamera'
+import VehicleDetails from '../pages/VehicleDetails/index'
+import ValuatedLeads from '../pages/ValuatedLeads/index';
+import KwikPrice from '../pages/KwikPrice/KwikPrice';
+
+const Stack = createStackNavigator();
+const Drawer = createDrawerNavigator();
+
+/* -------------------- DRAWER -------------------- */
+const DrawerNavigator = () => {
+  return (
+    <Drawer.Navigator
+      drawerContent={(props) => <CustomDrawerContent {...props} />}
+      screenOptions={{
+        headerShown: true,
+        headerStyle: {
+          backgroundColor: "#1181B2",
+        },
+        headerTintColor: "#fff",
+        headerTitleStyle: {
+          fontWeight: "bold",
+        },
+      }}
+    >
+      <Drawer.Screen name="Dashboard" component={DashBoard} />
+      <Drawer.Screen name="Completed Leads" component={CompletedLeads} />
+      <Drawer.Screen name="KwikPrice" component={KwikPrice} />
+      <Drawer.Screen name="Account" component={Account} />
+    </Drawer.Navigator>
+  );
+};
+
+/* -------------------- APP STACK -------------------- */
+const AppNavigator = () => {
+  return (
+    <Stack.Navigator screenOptions={{
+      headerShown: true,
+      headerStyle: {
+        backgroundColor: "#1181B2",
+      },
+      headerTintColor: "#fff",
+      headerTitleStyle: {
+        fontWeight: "bold",
+      },
+    }}>
+      {/* MAIN APP */}
+      <Stack.Screen name="MainApp" component={DrawerNavigator} options={{ headerShown: false }} />
+      <Stack.Screen name="My Tasks" component={MyTaskPage} options={{ title: "My Tasks" }} />
+      <Stack.Screen name="Valuate" component={ValuatePage} options={{ title: "Valuate" }} />
+      <Stack.Screen name="Create Leads" component={CreateLeads} options={{ title: "Create Leads" }} />
+      <Stack.Screen name="LeadsInProgress" component={LeadsInProgress} options={{ title: "Leads In Progress " }} />
+      <Stack.Screen name="ValuationCompletedLeads" component={ValuationCompletedLeads} options={{ title: "Completed Leads" }} />
+      <Stack.Screen name="Camera" component={CustomCamera} options={{ title: "Camera" }} />
+      <Stack.Screen name="VehicleDetails" component={VehicleDetails} options={{ headerShown: false }} />
+      <Stack.Screen name="CreateLeads" component={CreateLeads} options={{ title: "Create Leads" }} />
+      <Stack.Screen name="ValuatedLeads" component={ValuatedLeads} options={{ title: "Valuated Leads" }} />
+      <Stack.Screen name="KwikPrice" component={KwikPrice} options={{ title: "Kwik Price" }} />
+    </Stack.Navigator>
+  );
+};
+
+export default AppNavigator;
