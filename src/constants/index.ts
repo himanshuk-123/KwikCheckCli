@@ -37,3 +37,5 @@ export const VEHICLE_TYPE_LIST_MAPPING: Record<string, number | string> = {
   "4": "CV",
   "6": "CE",
 };
+
+export * from './StateCityList';

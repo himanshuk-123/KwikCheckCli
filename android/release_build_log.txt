@@ -1,0 +1,747 @@
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :react-native-vision-camera
+[VisionCamera] Thank you for using VisionCamera ??
+[VisionCamera] If you enjoy using VisionCamera, please consider sponsoring this project: https://github.com/sponsors/mrousavy
+[VisionCamera] node_modules found at C:\Kwik\KwikCheck\node_modules
+[VisionCamera] VisionCamera_enableFrameProcessors is set to true!
+[VisionCamera] react-native-worklets-core not found, Frame Processors are disabled!
+[VisionCamera] VisionCamera_enableCodeScanner is set to false!
+WARNING: The specified Android SDK Build Tools version (34.0.0) is ignored, as it is below the minimum supported version (35.0.0) for Android Gradle Plugin 8.12.0.
+Android SDK Build Tools 35.0.0 will be used.
+To suppress this warning, remove "buildToolsVersion '34.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Task :react-native-geolocation-service:preBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :app:generateAutolinkingNewArchitectureFiles UP-TO-DATE
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :react-native-community_datetimepicker:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint UP-TO-DATE
+> Task :react-native-linear-gradient:preBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preBuild UP-TO-DATE
+> Task :react-native-community_datetimepicker:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-community_datetimepicker:preBuild UP-TO-DATE
+> Task :react-native-permissions:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-permissions:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-permissions:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :react-native-screens:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-svg:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-gesture-handler:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-gesture-handler:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :react-native-vector-icons:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-screens:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-screens:preBuild UP-TO-DATE
+> Task :react-native-vector-icons:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-vector-icons:preBuild UP-TO-DATE
+> Task :react-native-vision-camera:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-webview:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-svg:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-svg:preBuild UP-TO-DATE
+> Task :react-native-webview:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-webview:preBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preReleaseBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-async-storage_async-storage:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-community_datetimepicker:preReleaseBuild UP-TO-DATE
+> Task :react-native-community_datetimepicker:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-community_datetimepicker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-community_datetimepicker:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-geolocation-service:preReleaseBuild UP-TO-DATE
+> Task :react-native-geolocation-service:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-geolocation-service:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-geolocation-service:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-gesture-handler:preReleaseBuild UP-TO-DATE
+> Task :react-native-vision-camera:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-vision-camera:prepareHeaders UP-TO-DATE
+> Task :react-native-vision-camera:preBuild UP-TO-DATE
+> Task :react-native-vision-camera:preReleaseBuild UP-TO-DATE
+> Task :react-native-gesture-handler:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-linear-gradient:preReleaseBuild UP-TO-DATE
+> Task :react-native-linear-gradient:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-linear-gradient:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-linear-gradient:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-permissions:preReleaseBuild UP-TO-DATE
+> Task :react-native-permissions:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-permissions:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-permissions:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-safe-area-context:preReleaseBuild UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-safe-area-context:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-screens:preReleaseBuild UP-TO-DATE
+> Task :react-native-vision-camera:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-vision-camera:generateJsonModelRelease
+> Task :react-native-vision-camera:prefabReleaseConfigurePackage UP-TO-DATE
+> Task :react-native-screens:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask
+> Task :react-native-reanimated:assertNewArchitectureEnabledTask SKIPPED
+> Task :react-native-worklets:assertMinimalReactNativeVersionTask
+> Task :react-native-worklets:assertNewArchitectureEnabledTask SKIPPED
+> Task :react-native-worklets:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-worklets:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-worklets:prepareWorkletsHeadersForPrefabs UP-TO-DATE
+> Task :react-native-worklets:preBuild
+> Task :react-native-worklets:preReleaseBuild
+> Task :react-native-vision-camera:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-screens:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-screens:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-screens:mergeReleaseNativeLibs UP-TO-DATE
+> Task :react-native-screens:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-svg:preReleaseBuild UP-TO-DATE
+> Task :react-native-svg:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-svg:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-vision-camera:externalNativeBuildRelease
+> Task :react-native-svg:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-vector-icons:preReleaseBuild UP-TO-DATE
+> Task :react-native-vision-camera:prefabReleasePackage UP-TO-DATE
+> Task :react-native-vector-icons:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-vector-icons:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-vision-camera:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-vision-camera:mergeReleaseNativeLibs UP-TO-DATE
+> Task :react-native-vision-camera:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-webview:preReleaseBuild UP-TO-DATE
+> Task :react-native-vector-icons:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-community_datetimepicker:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-community_datetimepicker:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-community_datetimepicker:generateReleaseResValues UP-TO-DATE
+> Task :react-native-webview:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-community_datetimepicker:generateReleaseResources UP-TO-DATE
+> Task :react-native-community_datetimepicker:packageReleaseResources UP-TO-DATE
+> Task :react-native-webview:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-webview:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-community_datetimepicker:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-gesture-handler:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-gesture-handler:generateReleaseResValues UP-TO-DATE
+> Task :react-native-gesture-handler:generateReleaseResources UP-TO-DATE
+> Task :react-native-community_datetimepicker:generateReleaseRFile UP-TO-DATE
+> Task :react-native-gesture-handler:packageReleaseResources UP-TO-DATE
+> Task :react-native-gesture-handler:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-gesture-handler:generateReleaseRFile UP-TO-DATE
+> Task :react-native-svg:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-svg:generateReleaseResValues UP-TO-DATE
+> Task :react-native-svg:generateReleaseResources UP-TO-DATE
+> Task :react-native-svg:packageReleaseResources UP-TO-DATE
+> Task :react-native-svg:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-svg:generateReleaseRFile UP-TO-DATE
+> Task :react-native-svg:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-community_datetimepicker:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-community_datetimepicker:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-community_datetimepicker:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-community_datetimepicker:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-svg:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-svg:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-gesture-handler:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-permissions:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-permissions:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-permissions:generateReleaseResValues UP-TO-DATE
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-permissions:generateReleaseResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-safe-area-context:generateReleaseResValues UP-TO-DATE
+> Task :react-native-permissions:packageReleaseResources UP-TO-DATE
+> Task :react-native-permissions:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-permissions:generateReleaseRFile UP-TO-DATE
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-safe-area-context:generateReleaseResources UP-TO-DATE
+> Task :react-native-safe-area-context:packageReleaseResources UP-TO-DATE
+> Task :react-native-safe-area-context:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateReleaseRFile UP-TO-DATE
+> Task :react-native-permissions:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-permissions:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-permissions:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-permissions:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-screens:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-screens:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-screens:generateReleaseResValues UP-TO-DATE
+> Task :react-native-screens:generateReleaseResources UP-TO-DATE
+> Task :react-native-screens:packageReleaseResources UP-TO-DATE
+> Task :react-native-screens:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-screens:generateReleaseRFile UP-TO-DATE
+> Task :react-native-safe-area-context:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-safe-area-context:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-safe-area-context:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-vision-camera:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-vision-camera:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-vision-camera:generateReleaseResValues UP-TO-DATE
+> Task :react-native-vision-camera:generateReleaseResources UP-TO-DATE
+> Task :react-native-vision-camera:packageReleaseResources UP-TO-DATE
+> Task :react-native-vision-camera:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-vision-camera:generateReleaseRFile UP-TO-DATE
+> Task :react-native-screens:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-screens:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-screens:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-screens:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-webview:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-webview:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-webview:generateReleaseResValues UP-TO-DATE
+> Task :react-native-webview:generateReleaseResources UP-TO-DATE
+> Task :react-native-webview:packageReleaseResources UP-TO-DATE
+> Task :react-native-vision-camera:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-vision-camera:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-vision-camera:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-webview:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-webview:generateReleaseRFile UP-TO-DATE
+> Task :react-native-vision-camera:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateReleaseResValues UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateReleaseResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:packageReleaseResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateReleaseRFile UP-TO-DATE
+> Task :react-native-async-storage_async-storage:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-geolocation-service:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-geolocation-service:generateReleaseResValues UP-TO-DATE
+> Task :react-native-geolocation-service:generateReleaseResources UP-TO-DATE
+> Task :react-native-webview:compileReleaseKotlin UP-TO-DATE
+> Task :react-native-webview:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-geolocation-service:packageReleaseResources UP-TO-DATE
+> Task :react-native-webview:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-webview:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-linear-gradient:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-linear-gradient:generateReleaseResValues UP-TO-DATE
+> Task :react-native-linear-gradient:generateReleaseResources UP-TO-DATE
+> Task :react-native-geolocation-service:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-geolocation-service:generateReleaseRFile UP-TO-DATE
+> Task :react-native-geolocation-service:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-linear-gradient:packageReleaseResources UP-TO-DATE
+> Task :react-native-linear-gradient:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-linear-gradient:generateReleaseRFile UP-TO-DATE
+> Task :react-native-linear-gradient:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-geolocation-service:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-geolocation-service:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-linear-gradient:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-svg:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-linear-gradient:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-vector-icons:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-vector-icons:generateReleaseResValues UP-TO-DATE
+> Task :react-native-vector-icons:generateReleaseResources UP-TO-DATE
+> Task :react-native-vector-icons:packageReleaseResources UP-TO-DATE
+> Task :react-native-vector-icons:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-vector-icons:generateReleaseRFile UP-TO-DATE
+> Task :react-native-vector-icons:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-vector-icons:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :react-native-vector-icons:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-async-storage_async-storage:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-community_datetimepicker:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-reanimated:assertWorkletsVersionTask
+> Task :react-native-geolocation-service:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-reanimated:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-reanimated:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs UP-TO-DATE
+> Task :react-native-reanimated:preBuild
+> Task :react-native-reanimated:preReleaseBuild
+> Task :react-native-reanimated:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-reanimated:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-gesture-handler:writeReleaseAarMetadata
+> Task :react-native-reanimated:generateReleaseResValues UP-TO-DATE
+> Task :react-native-linear-gradient:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-permissions:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-safe-area-context:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-reanimated:generateReleaseResources UP-TO-DATE
+> Task :react-native-screens:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-svg:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-vector-icons:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-vision-camera:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-reanimated:packageReleaseResources UP-TO-DATE
+> Task :react-native-webview:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-reanimated:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-reanimated:generateReleaseRFile UP-TO-DATE
+> Task :react-native-async-storage_async-storage:processReleaseManifest UP-TO-DATE
+> Task :react-native-reanimated:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-community_datetimepicker:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-community_datetimepicker:processReleaseManifest UP-TO-DATE
+> Task :react-native-geolocation-service:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-reanimated:writeReleaseAarMetadata
+> Task :react-native-geolocation-service:processReleaseManifest UP-TO-DATE
+> Task :react-native-linear-gradient:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-linear-gradient:processReleaseManifest UP-TO-DATE
+> Task :react-native-gesture-handler:extractDeepLinksRelease
+> Task :react-native-permissions:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-permissions:processReleaseManifest UP-TO-DATE
+> Task :react-native-reanimated:extractDeepLinksRelease
+> Task :react-native-gesture-handler:processReleaseManifest
+> Task :react-native-safe-area-context:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-safe-area-context:processReleaseManifest UP-TO-DATE
+> Task :react-native-reanimated:processReleaseManifest
+> Task :react-native-svg:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-screens:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-svg:processReleaseManifest UP-TO-DATE
+> Task :react-native-vector-icons:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-vector-icons:processReleaseManifest UP-TO-DATE
+> Task :react-native-screens:processReleaseManifest UP-TO-DATE
+> Task :react-native-vision-camera:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-vision-camera:processReleaseManifest UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-community_datetimepicker:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-webview:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-geolocation-service:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-webview:processReleaseManifest UP-TO-DATE
+> Task :react-native-linear-gradient:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-permissions:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-gesture-handler:compileReleaseLibraryResources
+> Task :react-native-safe-area-context:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-screens:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-svg:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-vector-icons:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-vision-camera:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-webview:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-community_datetimepicker:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-geolocation-service:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-linear-gradient:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-permissions:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-reanimated:compileReleaseLibraryResources
+> Task :react-native-screens:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :app:buildKotlinToolingMetadata
+> Task :react-native-vector-icons:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :app:preBuild
+> Task :react-native-vision-camera:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :app:preReleaseBuild
+> Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-async-storage_async-storage:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-community_datetimepicker:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-geolocation-service:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-gesture-handler:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-linear-gradient:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-permissions:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-reanimated:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-safe-area-context:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-screens:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-webview:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-svg:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-vision-camera:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-vector-icons:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-community_datetimepicker:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-permissions:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-webview:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-screens:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-vision-camera:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-webview:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-linear-gradient:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-geolocation-service:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-svg:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-vector-icons:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileReleaseShaders NO-SOURCE
+> Task :react-native-async-storage_async-storage:generateReleaseAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-geolocation-service:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-community_datetimepicker:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-geolocation-service:compileReleaseShaders NO-SOURCE
+> Task :react-native-geolocation-service:generateReleaseAssets UP-TO-DATE
+> Task :react-native-geolocation-service:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-community_datetimepicker:compileReleaseShaders NO-SOURCE
+> Task :react-native-community_datetimepicker:generateReleaseAssets UP-TO-DATE
+> Task :react-native-community_datetimepicker:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-linear-gradient:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-linear-gradient:compileReleaseShaders NO-SOURCE
+> Task :react-native-linear-gradient:generateReleaseAssets UP-TO-DATE
+> Task :react-native-linear-gradient:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-permissions:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-permissions:compileReleaseShaders NO-SOURCE
+> Task :react-native-permissions:generateReleaseAssets UP-TO-DATE
+> Task :react-native-permissions:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-gesture-handler:mergeReleaseShaders
+> Task :react-native-gesture-handler:compileReleaseShaders NO-SOURCE
+> Task :react-native-gesture-handler:generateReleaseAssets UP-TO-DATE
+> Task :react-native-gesture-handler:mergeReleaseAssets
+> Task :react-native-safe-area-context:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-safe-area-context:compileReleaseShaders NO-SOURCE
+> Task :react-native-safe-area-context:generateReleaseAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-screens:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-screens:compileReleaseShaders NO-SOURCE
+> Task :react-native-screens:generateReleaseAssets UP-TO-DATE
+> Task :react-native-screens:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-svg:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-svg:compileReleaseShaders NO-SOURCE
+> Task :react-native-svg:generateReleaseAssets UP-TO-DATE
+> Task :react-native-svg:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-vector-icons:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-vector-icons:compileReleaseShaders NO-SOURCE
+> Task :react-native-vector-icons:generateReleaseAssets UP-TO-DATE
+> Task :react-native-vector-icons:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-vision-camera:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-vision-camera:compileReleaseShaders NO-SOURCE
+> Task :react-native-vision-camera:generateReleaseAssets UP-TO-DATE
+> Task :react-native-vision-camera:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-webview:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-webview:compileReleaseShaders NO-SOURCE
+> Task :react-native-webview:generateReleaseAssets UP-TO-DATE
+> Task :react-native-webview:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:processReleaseJavaRes NO-SOURCE
+> Task :react-native-async-storage_async-storage:createFullJarRelease UP-TO-DATE
+> Task :react-native-async-storage_async-storage:extractProguardFiles UP-TO-DATE
+> Task :react-native-reanimated:mergeReleaseShaders
+> Task :react-native-reanimated:compileReleaseShaders NO-SOURCE
+> Task :react-native-reanimated:generateReleaseAssets UP-TO-DATE
+> Task :react-native-reanimated:mergeReleaseAssets
+> Task :react-native-community_datetimepicker:processReleaseJavaRes UP-TO-DATE
+> Task :react-native-community_datetimepicker:createFullJarRelease UP-TO-DATE
+> Task :react-native-community_datetimepicker:extractProguardFiles UP-TO-DATE
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[arm64-v8a][worklets]
+> Task :react-native-worklets:externalNativeBuildRelease
+> Task :react-native-worklets:generateJsonModelRelease
+> Task :react-native-worklets:prefabReleaseConfigurePackage
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-reanimated:generateJsonModelRelease
+> Task :react-native-reanimated:prefabReleaseConfigurePackage UP-TO-DATE
+> Task :react-native-worklets:prefabReleasePackage UP-TO-DATE
+> Task :react-native-community_datetimepicker:generateReleaseLintModel UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseNativeLibs UP-TO-DATE
+> Task :react-native-worklets:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateReleaseLintModel UP-TO-DATE
+> Task :react-native-worklets:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-worklets:generateReleaseResValues UP-TO-DATE
+> Task :react-native-worklets:generateReleaseResources UP-TO-DATE
+> Task :react-native-worklets:packageReleaseResources UP-TO-DATE
+> Task :react-native-worklets:parseReleaseLocalResources UP-TO-DATE
+> Task :react-native-worklets:generateReleaseRFile UP-TO-DATE
+> Task :react-native-worklets:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-worklets:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :app:checkReleaseDuplicateClasses
+> Task :react-native-worklets:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-worklets:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-worklets:writeReleaseAarMetadata UP-TO-DATE
+> Task :react-native-worklets:extractDeepLinksRelease UP-TO-DATE
+> Task :react-native-worklets:processReleaseManifest UP-TO-DATE
+> Task :react-native-worklets:compileReleaseLibraryResources UP-TO-DATE
+> Task :react-native-worklets:prepareReleaseArtProfile UP-TO-DATE
+> Task :react-native-worklets:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseShaders UP-TO-DATE
+> Task :react-native-worklets:compileReleaseShaders NO-SOURCE
+> Task :react-native-worklets:generateReleaseAssets UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-community_datetimepicker:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-geolocation-service:processReleaseJavaRes NO-SOURCE
+> Task :react-native-geolocation-service:createFullJarRelease UP-TO-DATE
+> Task :react-native-geolocation-service:extractProguardFiles UP-TO-DATE
+> Task :react-native-geolocation-service:generateReleaseLintModel UP-TO-DATE
+> Task :react-native-geolocation-service:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-worklets:processReleaseJavaRes NO-SOURCE
+> Task :react-native-worklets:createFullJarRelease UP-TO-DATE
+> Task :react-native-worklets:extractProguardFiles UP-TO-DATE
+> Task :react-native-worklets:generateReleaseLintModel UP-TO-DATE
+> Task :react-native-worklets:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-svg:processReleaseJavaRes NO-SOURCE
+> Task :react-native-svg:createFullJarRelease UP-TO-DATE
+> Task :react-native-svg:extractProguardFiles UP-TO-DATE
+> Task :react-native-svg:generateReleaseLintModel UP-TO-DATE
+> Task :react-native-svg:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-linear-gradient:processReleaseJavaRes NO-SOURCE
+> Task :react-native-linear-gradient:createFullJarRelease UP-TO-DATE
+> Task :react-native-linear-gradient:extractProguardFiles UP-TO-DATE
+> Task :react-native-linear-gradient:generateReleaseLintModel UP-TO-DATE
+> Task :react-native-linear-gradient:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-permissions:processReleaseJavaRes UP-TO-DATE
+> Task :react-native-permissions:createFullJarRelease UP-TO-DATE
+> Task :react-native-permissions:extractProguardFiles UP-TO-DATE
+> Task :react-native-permissions:generateReleaseLintModel UP-TO-DATE
+> Task :react-native-permissions:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-safe-area-context:processReleaseJavaRes UP-TO-DATE
+> Task :react-native-safe-area-context:createFullJarRelease UP-TO-DATE
+> Task :react-native-safe-area-context:extractProguardFiles UP-TO-DATE
+> Task :react-native-safe-area-context:generateReleaseLintModel UP-TO-DATE
+> Task :react-native-safe-area-context:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-screens:processReleaseJavaRes UP-TO-DATE
+> Task :react-native-screens:createFullJarRelease UP-TO-DATE
+> Task :react-native-screens:extractProguardFiles UP-TO-DATE
+> Task :react-native-screens:generateReleaseLintModel UP-TO-DATE
+> Task :react-native-screens:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-vector-icons:processReleaseJavaRes NO-SOURCE
+> Task :react-native-vector-icons:createFullJarRelease UP-TO-DATE
+> Task :react-native-vector-icons:extractProguardFiles UP-TO-DATE
+> Task :react-native-vector-icons:generateReleaseLintModel UP-TO-DATE
+> Task :react-native-vector-icons:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-vision-camera:processReleaseJavaRes UP-TO-DATE
+> Task :react-native-vision-camera:createFullJarRelease UP-TO-DATE
+> Task :react-native-vision-camera:extractProguardFiles UP-TO-DATE
+> Task :react-native-vision-camera:generateReleaseLintModel UP-TO-DATE
+> Task :react-native-vision-camera:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-webview:processReleaseJavaRes UP-TO-DATE
+> Task :react-native-webview:createFullJarRelease UP-TO-DATE
+> Task :react-native-webview:extractProguardFiles UP-TO-DATE
+> Task :react-native-webview:generateReleaseLintModel UP-TO-DATE
+> Task :react-native-webview:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-community_datetimepicker:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-community_datetimepicker:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-community_datetimepicker:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-community_datetimepicker:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-community_datetimepicker:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-community_datetimepicker:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-community_datetimepicker:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-community_datetimepicker:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-community_datetimepicker:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :react-native-permissions:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-permissions:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-permissions:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-permissions:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-permissions:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-permissions:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-permissions:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-permissions:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-permissions:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :react-native-safe-area-context:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-safe-area-context:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-safe-area-context:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-safe-area-context:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-safe-area-context:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-safe-area-context:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :react-native-screens:stripReleaseDebugSymbols UP-TO-DATE
+> Task :react-native-screens:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-screens:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-screens:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-screens:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-screens:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-screens:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-screens:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-screens:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :react-native-vision-camera:stripReleaseDebugSymbols UP-TO-DATE
+> Task :react-native-vision-camera:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-vision-camera:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-vision-camera:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-vision-camera:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-vision-camera:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-vision-camera:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-vision-camera:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-vision-camera:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :react-native-webview:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-webview:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-webview:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-webview:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-webview:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-webview:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-webview:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-webview:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-webview:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :react-native-async-storage_async-storage:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-async-storage_async-storage:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-async-storage_async-storage:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-async-storage_async-storage:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-async-storage_async-storage:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :react-native-geolocation-service:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-geolocation-service:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-geolocation-service:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-geolocation-service:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-geolocation-service:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-geolocation-service:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-geolocation-service:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-geolocation-service:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-geolocation-service:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :react-native-linear-gradient:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-linear-gradient:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-linear-gradient:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-linear-gradient:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-linear-gradient:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-linear-gradient:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-linear-gradient:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-linear-gradient:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-linear-gradient:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :react-native-svg:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-svg:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-svg:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-svg:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-svg:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-svg:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-svg:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-svg:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-svg:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :react-native-vector-icons:stripReleaseDebugSymbols NO-SOURCE
+> Task :react-native-vector-icons:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-vector-icons:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-vector-icons:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-vector-icons:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-vector-icons:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-vector-icons:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-vector-icons:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-vector-icons:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :react-native-worklets:stripReleaseDebugSymbols UP-TO-DATE
+> Task :react-native-worklets:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :react-native-worklets:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :react-native-worklets:extractReleaseAnnotations UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseJavaResource UP-TO-DATE
+> Task :react-native-worklets:syncReleaseLibJars UP-TO-DATE
+> Task :react-native-worklets:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :react-native-async-storage_async-storage:lintVitalAnalyzeRelease UP-TO-DATE
+> Task :react-native-async-storage_async-storage:writeReleaseLintModelMetadata
+
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[arm64-v8a][reanimated]
+C/C++: ninja: Entering directory `C:\Kwik\KwikCheck\node_modules\react-native-reanimated\android\.cxx\RelWithDebInfo\3k2zr561\arm64-v8a'
+C/C++: C:\Users\DeLL\AppData\Local\Android\Sdk\ndk\26.1.10909125\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Users/DeLL/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DRN_SERIALIZABLE_STATE -Dreanimated_EXPORTS -IC:/Kwik/KwikCheck/node_modules/react-native-reanimated/android/../Common/cpp -IC:/Kwik/KwikCheck/node_modules/react-native-reanimated/android/src/main/cpp -IC:/Kwik/KwikCheck/node_modules/react-native/ReactCommon -IC:/Kwik/KwikCheck/node_modules/react-native/ReactCommon/yoga -IC:/Kwik/KwikCheck/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/Kwik/KwikCheck/node_modules/react-native/ReactCommon/callinvoker -IC:/Kwik/KwikCheck/node_modules/react-native/ReactCommon/runtimeexecutor -IC:/Kwik/KwikCheck/node_modules/react-native/ReactCommon/jsiexecutor -IC:/Kwik/KwikCheck/node_modules/react-native/ReactCommon/react/renderer/graphics/platform/cxx -IC:/Kwik/KwikCheck/node_modules/react-native-worklets/Common/cpp -IC:/Kwik/KwikCheck/node_modules/react-native-worklets/android/src/main/cpp -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/reactnative/include -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/jsi/include -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b85f62a599074afc3b2ec6cfb7884973/transformed/fbjni-0.7.0/prefab/modules/fbjni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=83    -DREANIMATED_VERSION=4.2.1    -DREANIMATED_FEATURE_FLAGS="[EXPERIMENTAL_CSS_ANIMATIONS_FOR_SVG_COMPONENTS:false][RUNTIME_TEST_FLAG:false][DISABLE_COMMIT_PAUSING_MECHANISM:false][ANDROID_SYNCHRONOUSLY_UPDATE_UI_PROPS:false][USE_SYNCHRONIZABLE_FOR_MUTABLES:false][FORCE_REACT_RENDER_FOR_SETTLED_ANIMATIONS:false][ENABLE_SHARED_ELEMENT_TRANSITIONS:false][IOS_SYNCHRONOUSLY_UPDATE_UI_PROPS:false][USE_COMMIT_HOOK_ONLY_FOR_REACT_COMMITS:false]" -fno-omit-frame-pointer -fstack-protector-all -fvisibility=hidden -DNDEBUG -flto=thin -O2 -g -DNDEBUG -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -Wall -Werror -fexceptions -frtti -std=c++20 -DLOG_TAG=\"ReactNative\" -std=gnu++20 -MD -MT CMakeFiles/reanimated.dir/930cdebd417cc3a21ee04694b4d966c9/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp.o -MF CMakeFiles\reanimated.dir\930cdebd417cc3a21ee04694b4d966c9\Common\cpp\reanimated\CSS\interpolation\transforms\TransformOperationInterpolator.cpp.o.d -o CMakeFiles/reanimated.dir/930cdebd417cc3a21ee04694b4d966c9/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp.o -c C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp
+C/C++: C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:145:11: error: type constraint differs in template redeclaration
+C/C++: template <ResolvableOp TOperation>
+C/C++:           ^
+C/C++: C:/Kwik/KwikCheck/node_modules/react-native-reanimated/android/../Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.h:13:11: note: previous template declaration is here
+C/C++: template <typename TOperation>
+C/C++:           ^
+C/C++: C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:149:53: error: member initializer 'config_' does not name a non-static data member or base class
+C/C++:     : StyleOperationInterpolator(defaultOperation), config_(std::move(config)) {}
+C/C++:                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:151:11: error: type constraint differs in template redeclaration
+C/C++: template <ResolvableOp TOperation>
+C/C++:           ^
+C/C++: C:/Kwik/KwikCheck/node_modules/react-native-reanimated/android/../Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.h:13:11: note: previous template declaration is here
+C/C++: template <typename TOperation>
+C/C++:           ^
+C/C++: C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:161:54: error: use of undeclared identifier 'getResolvableValueContext'
+C/C++:       fromOp.value.interpolate(progress, toOp.value, getResolvableValueContext(context)));
+C/C++:                                                      ^
+C/C++: C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:164:11: error: type constraint differs in template redeclaration
+C/C++: template <ResolvableOp TOperation>
+C/C++:           ^
+C/C++: C:/Kwik/KwikCheck/node_modules/react-native-reanimated/android/../Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.h:13:11: note: previous template declaration is here
+C/C++: template <typename TOperation>
+C/C++:           ^
+C/C++: C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:169:54: error: use of undeclared identifier 'getResolvableValueContext'
+C/C++:   const auto &resolved = resolvableOp->value.resolve(getResolvableValueContext(context));
+C/C++:                                                      ^
+C/C++: C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:180:11: error: type constraint differs in template redeclaration
+C/C++: template <ResolvableOp TOperation>
+C/C++:           ^
+C/C++: C:/Kwik/KwikCheck/node_modules/react-native-reanimated/android/../Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.h:13:11: note: previous template declaration is here
+C/C++: template <typename TOperation>
+C/C++:           ^
+C/C++: C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:187:27: error: use of undeclared identifier 'config_'
+C/C++:       .relativeProperty = config_.relativeProperty,
+C/C++:                           ^
+C/C++: C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:188:21: error: use of undeclared identifier 'config_'
+C/C++:       .relativeTo = config_.relativeTo};
+C/C++:                     ^
+C/C++: 9 errors generated.
+
+> Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :app:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-community_datetimepicker:lintVitalAnalyzeRelease
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[arm64-v8a][reanimated] FAILED
+
+[Incubating] Problems report is available at: file:///C:/Kwik/KwikCheck/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':react-native-reanimated:buildCMakeRelWithDebInfo[arm64-v8a][reanimated]'.
+> com.android.ide.common.process.ProcessException: ninja: Entering directory `C:\Kwik\KwikCheck\node_modules\react-native-reanimated\android\.cxx\RelWithDebInfo\3k2zr561\arm64-v8a'
+  [0/2] Re-checking globbed directories...
+  [1/46] Building CXX object CMakeFiles/reanimated.dir/930cdebd417cc3a21ee04694b4d966c9/Common/cpp/reanimated/CSS/interpolation/transforms/operations/skew.cpp.o
+  [2/46] Building CXX object CMakeFiles/reanimated.dir/930cdebd417cc3a21ee04694b4d966c9/Common/cpp/reanimated/CSS/interpolation/transforms/operations/perspective.cpp.o
+  [3/46] Building CXX object CMakeFiles/reanimated.dir/930cdebd417cc3a21ee04694b4d966c9/Common/cpp/reanimated/CSS/interpolation/transforms/operations/scale.cpp.o
+  [4/46] Building CXX object CMakeFiles/reanimated.dir/930cdebd417cc3a21ee04694b4d966c9/Common/cpp/reanimated/CSS/interpolation/transforms/operations/translate.cpp.o
+  [5/46] Building CXX object CMakeFiles/reanimated.dir/930cdebd417cc3a21ee04694b4d966c9/Common/cpp/reanimated/CSS/interpolation/transforms/operations/rotate.cpp.o
+  [6/46] Building CXX object CMakeFiles/reanimated.dir/930cdebd417cc3a21ee04694b4d966c9/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp.o
+  FAILED: CMakeFiles/reanimated.dir/930cdebd417cc3a21ee04694b4d966c9/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp.o 
+  C:\Users\DeLL\AppData\Local\Android\Sdk\ndk\26.1.10909125\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Users/DeLL/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DRN_SERIALIZABLE_STATE -Dreanimated_EXPORTS -IC:/Kwik/KwikCheck/node_modules/react-native-reanimated/android/../Common/cpp -IC:/Kwik/KwikCheck/node_modules/react-native-reanimated/android/src/main/cpp -IC:/Kwik/KwikCheck/node_modules/react-native/ReactCommon -IC:/Kwik/KwikCheck/node_modules/react-native/ReactCommon/yoga -IC:/Kwik/KwikCheck/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/Kwik/KwikCheck/node_modules/react-native/ReactCommon/callinvoker -IC:/Kwik/KwikCheck/node_modules/react-native/ReactCommon/runtimeexecutor -IC:/Kwik/KwikCheck/node_modules/react-native/ReactCommon/jsiexecutor -IC:/Kwik/KwikCheck/node_modules/react-native/ReactCommon/react/renderer/graphics/platform/cxx -IC:/Kwik/KwikCheck/node_modules/react-native-worklets/Common/cpp -IC:/Kwik/KwikCheck/node_modules/react-native-worklets/android/src/main/cpp -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/reactnative/include -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/jsi/include -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b85f62a599074afc3b2ec6cfb7884973/transformed/fbjni-0.7.0/prefab/modules/fbjni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=83    -DREANIMATED_VERSION=4.2.1    -DREANIMATED_FEATURE_FLAGS="[EXPERIMENTAL_CSS_ANIMATIONS_FOR_SVG_COMPONENTS:false][RUNTIME_TEST_FLAG:false][DISABLE_COMMIT_PAUSING_MECHANISM:false][ANDROID_SYNCHRONOUSLY_UPDATE_UI_PROPS:false][USE_SYNCHRONIZABLE_FOR_MUTABLES:false][FORCE_REACT_RENDER_FOR_SETTLED_ANIMATIONS:false][ENABLE_SHARED_ELEMENT_TRANSITIONS:false][IOS_SYNCHRONOUSLY_UPDATE_UI_PROPS:false][USE_COMMIT_HOOK_ONLY_FOR_REACT_COMMITS:false]" -fno-omit-frame-pointer -fstack-protector-all -fvisibility=hidden -DNDEBUG -flto=thin -O2 -g -DNDEBUG -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -Wall -Werror -fexceptions -frtti -std=c++20 -DLOG_TAG=\"ReactNative\" -std=gnu++20 -MD -MT CMakeFiles/reanimated.dir/930cdebd417cc3a21ee04694b4d966c9/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp.o -MF CMakeFiles\reanimated.dir\930cdebd417cc3a21ee04694b4d966c9\Common\cpp\reanimated\CSS\interpolation\transforms\TransformOperationInterpolator.cpp.o.d -o CMakeFiles/reanimated.dir/930cdebd417cc3a21ee04694b4d966c9/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp.o -c C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp
+  C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:145:11: error: type constraint differs in template redeclaration
+  template <ResolvableOp TOperation>
+            ^
+  C:/Kwik/KwikCheck/node_modules/react-native-reanimated/android/../Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.h:13:11: note: previous template declaration is here
+  template <typename TOperation>
+            ^
+  C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:149:53: error: member initializer 'config_' does not name a non-static data member or base class
+      : StyleOperationInterpolator(defaultOperation), config_(std::move(config)) {}
+                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+  C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:151:11: error: type constraint differs in template redeclaration
+  template <ResolvableOp TOperation>
+            ^
+  C:/Kwik/KwikCheck/node_modules/react-native-reanimated/android/../Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.h:13:11: note: previous template declaration is here
+  template <typename TOperation>
+            ^
+  C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:161:54: error: use of undeclared identifier 'getResolvableValueContext'
+        fromOp.value.interpolate(progress, toOp.value, getResolvableValueContext(context)));
+                                                       ^
+  C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:164:11: error: type constraint differs in template redeclaration
+  template <ResolvableOp TOperation>
+            ^
+  C:/Kwik/KwikCheck/node_modules/react-native-reanimated/android/../Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.h:13:11: note: previous template declaration is here
+  template <typename TOperation>
+            ^
+  C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:169:54: error: use of undeclared identifier 'getResolvableValueContext'
+    const auto &resolved = resolvableOp->value.resolve(getResolvableValueContext(context));
+                                                       ^
+  C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:180:11: error: type constraint differs in template redeclaration
+  template <ResolvableOp TOperation>
+            ^
+  C:/Kwik/KwikCheck/node_modules/react-native-reanimated/android/../Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.h:13:11: note: previous template declaration is here
+  template <typename TOperation>
+            ^
+  C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:187:27: error: use of undeclared identifier 'config_'
+        .relativeProperty = config_.relativeProperty,
+                            ^
+  C:/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/interpolation/transforms/TransformOperationInterpolator.cpp:188:21: error: use of undeclared identifier 'config_'
+        .relativeTo = config_.relativeTo};
+                      ^
+  9 errors generated.
+  [7/46] Building CXX object CMakeFiles/reanimated.dir/C_/Kwik/KwikCheck/node_modules/react-native-reanimated/Common/cpp/reanimated/CSS/progress/RawProgressProvider.cpp.o
+  [8/46] Building CXX object CMakeFiles/reanimated.dir/930cdebd417cc3a21ee04694b4d966c9/Common/cpp/reanimated/CSS/interpolation/values/ResolvableValueInterpolator.cpp.o
+  [9/46] Building CXX object CMakeFiles/reanimated.dir/930cdebd417cc3a21ee04694b4d966c9/Common/cpp/reanimated/CSS/progress/AnimationProgressProvider.cpp.o
+  [10/46] Building CXX object CMakeFiles/reanimated.dir/930cdebd417cc3a21ee04694b4d966c9/Common/cpp/reanimated/CSS/interpolation/values/ValueInterpolator.cpp.o
+  [11/46] Building CXX object CMakeFiles/reanimated.dir/930cdebd417cc3a21ee04694b4d966c9/Common/cpp/reanimated/CSS/interpolation/values/SimpleValueInterpolator.cpp.o
+  ninja: build stopped: subcommand failed.
+  
+  C++ build system [build] failed while executing:
+      @echo off
+      "C:\\Users\\DeLL\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+        -C ^
+        "C:\\Kwik\\KwikCheck\\node_modules\\react-native-reanimated\\android\\.cxx\\RelWithDebInfo\\3k2zr561\\arm64-v8a" ^
+        reanimated
+    from C:\Kwik\KwikCheck\node_modules\react-native-reanimated\android
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.0.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 1m 8s
+498 actionable tasks: 32 executed, 466 up-to-date

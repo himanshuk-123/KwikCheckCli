@@ -8,12 +8,15 @@ import {
   TouchableWithoutFeedback,
   View,
   ActivityIndicator,
+  ToastAndroid
 } from "react-native";
+import { DateTimePickerAndroid } from "@react-native-community/datetimepicker";
 import { useRef, useState, useCallback, useMemo } from "react";
 import SingleCard from "../../components/SingleCard";
 import { COLORS } from "../../constants/Colors";
 import { VehicleCE } from "../../assets";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { useNavigation } from "@react-navigation/native";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import Feather from "react-native-vector-icons/Feather";
 
@@ -60,6 +63,7 @@ const isBillingAllowed = (item: LeadListStatuswiseRespDataRecord) => {
 };
 
 const MyTasksPage = () => {
+  const navigation = useNavigation();
   const searchRef = useRef<any>(null);
   const [searchText, setSearchText] = useState("");
   const [selectedVehicleType, setSelectedVehicleType] = useState("2W");
@@ -71,7 +75,8 @@ const MyTasksPage = () => {
     initialize,
     setVehicle,
     countsByVehicle,
-    reset
+    reset,
+    confirmAppointment
   } = useMyTasksStore();
 
   // Fetch Data on Focus
@@ -190,7 +195,31 @@ const MyTasksPage = () => {
                   companyName: item.companyname,
                 }}
                 vehicleType={selectedVehicleType}
-              // onValuateClick logic to be added later
+                onValuateClick={() => {
+                  // @ts-ignore
+                  navigation.navigate("Valuate", {
+                    leadId: item.Id,
+                    displayId: item.LeadUId?.toUpperCase(),
+                    vehicleType: selectedVehicleType,
+                  });
+                }}
+                onAppointmentClick={() => {
+                  DateTimePickerAndroid.open({
+                    value: new Date(),
+                    minimumDate: new Date(),
+                    mode: 'date',
+                    onChange: async (event, date) => {
+                      if (event.type === 'dismissed' || !date) return;
+
+                      try {
+                        await confirmAppointment(item.Id?.toString() || '', date);
+                        ToastAndroid.show('Appointment set successfully', ToastAndroid.SHORT);
+                      } catch (err) {
+                        ToastAndroid.show('Failed to set appointment', ToastAndroid.SHORT);
+                      }
+                    },
+                  });
+                }}
               />
             )
           })

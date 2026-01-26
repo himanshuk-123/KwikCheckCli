@@ -22,6 +22,19 @@ export interface LeadListStatuswiseRespDataRecord {
   [key: string]: any;
 }
 
+export interface VehicleCountRecord {
+  VehicleTypeValue: string;
+  counts: number;
+}
+
+export interface VehicleCountResponse {
+  Error: string;
+  Status: string;
+  MESSAGE: string;
+  DataRecord?: VehicleCountRecord[];
+  TotalCount: number;
+}
+
 export interface MyTasksResponse {
   Error: string; // "0" means success
   MESSAGE: string;

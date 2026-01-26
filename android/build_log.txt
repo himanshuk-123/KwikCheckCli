@@ -1,0 +1,93 @@
+Reusing configuration cache.
+> Task :app:externalNativeBuildCleanDebugOptimized
+> Task :app:externalNativeBuildCleanDebug
+> Task :react-native-async-storage_async-storage:clean UP-TO-DATE
+> Task :react-native-gesture-handler:externalNativeBuildCleanDebug
+> Task :react-native-geolocation-service:clean UP-TO-DATE
+> Task :react-native-gesture-handler:externalNativeBuildCleanRelease
+> Task :react-native-community_datetimepicker:clean UP-TO-DATE
+> Task :react-native-linear-gradient:clean UP-TO-DATE
+> Task :react-native-permissions:clean UP-TO-DATE
+> Task :react-native-gesture-handler:clean UP-TO-DATE
+> Task :react-native-reanimated:externalNativeBuildCleanDebug
+> Task :react-native-safe-area-context:clean UP-TO-DATE
+> Task :react-native-screens:externalNativeBuildCleanDebug
+> Task :app:externalNativeBuildCleanRelease
+> Task :app:clean UP-TO-DATE
+> Task :react-native-svg:clean UP-TO-DATE
+> Task :react-native-vector-icons:clean UP-TO-DATE
+> Task :react-native-reanimated:externalNativeBuildCleanRelease
+> Task :react-native-vision-camera:externalNativeBuildCleanDebug
+> Task :react-native-vision-camera:externalNativeBuildCleanRelease
+> Task :react-native-webview:clean UP-TO-DATE
+> Task :react-native-screens:externalNativeBuildCleanRelease
+> Task :react-native-worklets:cleanCmakeCache FAILED
+> Task :react-native-reanimated:cleanCmakeCache FAILED
+> Task :react-native-vision-camera:deleteCmakeCache FAILED
+> Task :react-native-screens:clean UP-TO-DATE
+
+3 problems were found reusing the configuration cache.
+- Task `:react-native-reanimated:cleanCmakeCache` of type `org.gradle.api.DefaultTask`: invocation of 'projectDir' references a Gradle script object from a Groovy closure at execution time, which is unsupported with the configuration cache.
+  See https://docs.gradle.org/9.0.0/userguide/configuration_cache_requirements.html#config_cache:requirements:gradle_model_types
+- Task `:react-native-vision-camera:deleteCmakeCache` of type `org.gradle.api.DefaultTask`: invocation of 'projectDir' references a Gradle script object from a Groovy closure at execution time, which is unsupported with the configuration cache.
+  See https://docs.gradle.org/9.0.0/userguide/configuration_cache_requirements.html#config_cache:requirements:gradle_model_types
+- Task `:react-native-worklets:cleanCmakeCache` of type `org.gradle.api.DefaultTask`: invocation of 'projectDir' references a Gradle script object from a Groovy closure at execution time, which is unsupported with the configuration cache.
+  See https://docs.gradle.org/9.0.0/userguide/configuration_cache_requirements.html#config_cache:requirements:gradle_model_types
+
+See the complete report at file:///C:/Kwik/KwikCheck/android/build/reports/configuration-cache/ea8k5305jcomvsc3svh4tyeoc/cslkex7lptkfl3uktt8054q17/configuration-cache-report.html
+
+[Incubating] Problems report is available at: file:///C:/Kwik/KwikCheck/android/build/reports/problems/problems-report.html
+
+FAILURE: Build completed with 3 failures.
+
+1: Task failed with an exception.
+-----------
+* Where:
+Build file 'C:\Kwik\KwikCheck\node_modules\react-native-worklets\android\build.gradle' line: 325
+
+* What went wrong:
+Execution failed for task ':react-native-worklets:cleanCmakeCache'.
+> Invocation of 'projectDir' references a Gradle script object from a Groovy closure at execution time, which is unsupported with the configuration cache.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* Where:
+Build file 'C:\Kwik\KwikCheck\node_modules\react-native-reanimated\android\build.gradle' line: 320
+
+* What went wrong:
+Execution failed for task ':react-native-reanimated:cleanCmakeCache'.
+> Invocation of 'projectDir' references a Gradle script object from a Groovy closure at execution time, which is unsupported with the configuration cache.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+3: Task failed with an exception.
+-----------
+* Where:
+Build file 'C:\Kwik\KwikCheck\node_modules\react-native-vision-camera\android\build.gradle' line: 219
+
+* What went wrong:
+Execution failed for task ':react-native-vision-camera:deleteCmakeCache'.
+> Invocation of 'projectDir' references a Gradle script object from a Groovy closure at execution time, which is unsupported with the configuration cache.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+BUILD FAILED in 5s
+26 actionable tasks: 14 executed, 12 up-to-date
+Configuration cache entry reused with 3 problems.

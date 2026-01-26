@@ -17,7 +17,7 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 import Feather from "react-native-vector-icons/Feather";
 // import useZustandStore from "@src/store/useZustandStore";
 
- interface SingleCardType {
+interface SingleCardType {
   id: string;
   regNo?: string;
   vehicleName: string;
@@ -46,6 +46,7 @@ type Props = {
   data: SingleCardType;
   vehicleType: string;
   onValuateClick: () => void;
+  onAppointmentClick: () => void;
 };
 type CardTileProps = { textPrimary: string; textSecondary: string };
 
@@ -53,7 +54,7 @@ const CardTile = ({ textPrimary, textSecondary }: CardTileProps) => {
   const RenderIcon = () => {
     const iconSize = 20;
     const iconColor = "#000";
-    
+
     switch (textPrimary) {
       case "Request Id":
         return (
@@ -124,7 +125,7 @@ const SingleCard = (props: Props) => {
   // const navigation = useNavigation();
   // const { setMyTaskValuate } = useZustandStore();
   const isRepoCase = props.data.leadType?.toLowerCase() === "repo";
-const navigation = useNavigation();
+  const navigation = useNavigation();
   return (
     <View style={cardTile.card}>
       <TouchableWithoutFeedback>
@@ -179,20 +180,22 @@ const navigation = useNavigation();
           </View>
 
           <View style={styles.footer}>
-            <TouchableOpacity style={styles.outlineButton}>
+            <TouchableOpacity
+              style={styles.outlineButton}
+              onPress={() => props.onAppointmentClick && props.onAppointmentClick()}
+            >
               <Text style={styles.outlineButtonText}>Appointment</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.primaryButton}
               onPress={() => {
                 console.log("props.data", props.data);
-                props?.onValuateClick?.();
-
-                // @ts-expect-error
-                navigation.navigate("Valuate", {
-                  id: props.data.id,
-                  vehicleType: props.vehicleType,
-                });
+                if (props.onValuateClick) {
+                  props.onValuateClick();
+                } else {
+                  // Fallback or explicit error if needed, but avoiding hardcoded navigation that uses wrong params
+                  console.log("onValuateClick not provided");
+                }
               }}
             >
               <Text style={styles.primaryButtonText}>Valuate</Text>

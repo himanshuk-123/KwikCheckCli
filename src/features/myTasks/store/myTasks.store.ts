@@ -1,7 +1,6 @@
 import { create } from 'zustand';
-import { fetchMyTasksApi } from '../api/myTasks.api';
+import { fetchMyTasksApi, fetchVehicleCountsApi } from '../api/myTasks.api';
 import { LeadListStatuswiseRespDataRecord } from '../types';
-import { VEHICLE_TYPE_LIST_MAPPING } from '../../../constants';
 
 interface MyTasksState {
   // Data State
@@ -19,10 +18,11 @@ interface MyTasksState {
   error: string | null;
 
   // Actions
-  initialize: () => Promise<void>; // Fetches ALL to count, then triggers first page
+  initialize: () => Promise<void>;
   setVehicle: (vehicleType: string) => void;
   setPage: (page: number) => void;
   fetchPaginatedTasks: () => Promise<void>;
+  confirmAppointment: (leadId: string, date: Date) => Promise<void>;
   reset: () => void;
 }
 
@@ -49,39 +49,37 @@ export const useMyTasksStore = create<MyTasksState>((set, get) => ({
   }),
 
   initialize: async () => {
-    set({ isInitializing: true, error: null });
+    set({ isInitializing: true, isLoading: true, error: null });
     try {
-      // 1. Fetch ALL records (no pagination)
-      const response = await fetchMyTasksApi();
+      // 1. Fetch Counts API
+      const response = await fetchVehicleCountsApi();
 
       if (response.Error !== '0') {
-        set({ error: response.MESSAGE || 'Init failed', isInitializing: false });
+        set({ error: response.MESSAGE || 'Init failed', isInitializing: false, isLoading: false });
         return;
       }
 
-      const allData = response.DataRecord || [];
-
-      // 2. Compute Counts per Vehicle Type
+      // Convert array response to Record<string, number>
       const counts: Record<string, number> = {};
-      allData.forEach((item) => {
-        // Map API vehicle type to UI key (e.g., 1 -> "2W")
-        const mappedType = VEHICLE_TYPE_LIST_MAPPING[item.VehicleType.toString()];
-        if (mappedType && typeof mappedType === 'string') {
-          counts[mappedType] = (counts[mappedType] || 0) + 1;
-        }
+      (response.DataRecord || []).forEach(item => {
+        counts[item.VehicleTypeValue] = item.counts;
       });
 
-      set({ countsByVehicle: counts, isInitializing: false });
+      set({
+        countsByVehicle: counts,
+        isInitializing: false,
+      });
 
-      // 3. Trigger initial fetch for default vehicle
+      // 2. Fetch Initial Data for Default Vehicle
       get().fetchPaginatedTasks();
 
     } catch (error: any) {
-      set({ error: error.message, isInitializing: false });
+      set({ error: error.message, isInitializing: false, isLoading: false });
     }
   },
 
   setVehicle: (vehicleType: string) => {
+    // Clear tasks to show loader, reset page
     set({ currentVehicle: vehicleType, pageNumber: 1, tasks: [], isLoading: true });
     get().fetchPaginatedTasks();
   },
@@ -96,13 +94,11 @@ export const useMyTasksStore = create<MyTasksState>((set, get) => ({
     set({ isLoading: true, error: null });
 
     try {
-      // Get mapped API value for vehicle (e.g., "2W" -> 1)
-      const apiVehicleType = VEHICLE_TYPE_LIST_MAPPING[currentVehicle];
-
+      // Pass currentVehicle (e.g. "2W", "4W") directly as VehicleTypeValue
       const response = await fetchMyTasksApi(
         pageNumber,
         pageSize,
-        apiVehicleType?.toString()
+        currentVehicle
       );
 
       if (response.Error !== '0') {
@@ -119,4 +115,19 @@ export const useMyTasksStore = create<MyTasksState>((set, get) => ({
       set({ error: error.message, isLoading: false });
     }
   },
+
+  confirmAppointment: async (leadId: string, date: Date) => {
+    // We don't necessarily need to set global loading here if we want a seamless experience,
+    // but setting it handles blocking properly.
+    // Or we could have a specific loading state. For now, reusing isLoading is safe.
+    // set({ isLoading: true, error: null }); 
+    // Actually, let's NOT block the whole UI logic, just fire it. 
+    // But error handling is good.
+    try {
+      await import('../api/myTasks.api').then(m => m.leadAppointmentDateApi(leadId, date));
+    } catch (error: any) {
+      set({ error: error.message });
+      throw error; // Re-throw so UI can show Toast
+    }
+  }
 }));

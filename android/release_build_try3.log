@@ -1,0 +1,334 @@
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :react-native-vision-camera
+[VisionCamera] Thank you for using VisionCamera ??
+[VisionCamera] If you enjoy using VisionCamera, please consider sponsoring this project: https://github.com/sponsors/mrousavy
+[VisionCamera] node_modules found at C:\Kwik\KwikCheck\node_modules
+[VisionCamera] VisionCamera_enableFrameProcessors is set to true!
+[VisionCamera] react-native-worklets-core not found, Frame Processors are disabled!
+[VisionCamera] VisionCamera_enableCodeScanner is set to false!
+WARNING: The specified Android SDK Build Tools version (34.0.0) is ignored, as it is below the minimum supported version (35.0.0) for Android Gradle Plugin 8.12.0.
+Android SDK Build Tools 35.0.0 will be used.
+To suppress this warning, remove "buildToolsVersion '34.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (29.0.2) is ignored, as it is below the minimum supported version (35.0.0) for Android Gradle Plugin 8.12.0.
+Android SDK Build Tools 35.0.0 will be used.
+To suppress this warning, remove "buildToolsVersion '29.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Task :react-native-geolocation-service:preBuild UP-TO-DATE
+> Task :react-native-community_datetimepicker:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :app:generateAutolinkingNewArchitectureFiles UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-gesture-handler:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :react-native-community_datetimepicker:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-community_datetimepicker:preBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-linear-gradient:preBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preBuild UP-TO-DATE
+> Task :react-native-gesture-handler:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :app:generateReactNativeEntryPoint UP-TO-DATE
+> Task :react-native-permissions:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-screens:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-permissions:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-permissions:preBuild UP-TO-DATE
+> Task :react-native-svg:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-svg:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-svg:preBuild UP-TO-DATE
+> Task :react-native-screens:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-screens:preBuild UP-TO-DATE
+> Task :react-native-vector-icons:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :react-native-vector-icons:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-vector-icons:preBuild UP-TO-DATE
+> Task :react-native-webview:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-vision-camera:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-webview:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-webview:preBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preReleaseBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-async-storage_async-storage:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-community_datetimepicker:preReleaseBuild UP-TO-DATE
+> Task :react-native-community_datetimepicker:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-community_datetimepicker:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-vision-camera:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-community_datetimepicker:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-geolocation-service:preReleaseBuild UP-TO-DATE
+> Task :react-native-geolocation-service:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-geolocation-service:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-geolocation-service:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-gesture-handler:preReleaseBuild UP-TO-DATE
+> Task :react-native-gesture-handler:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-linear-gradient:preReleaseBuild UP-TO-DATE
+> Task :react-native-linear-gradient:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-linear-gradient:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-linear-gradient:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-permissions:preReleaseBuild UP-TO-DATE
+> Task :react-native-permissions:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-permissions:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-permissions:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-safe-area-context:preReleaseBuild UP-TO-DATE
+> Task :react-native-vision-camera:prepareHeaders UP-TO-DATE
+> Task :react-native-vision-camera:preBuild UP-TO-DATE
+> Task :react-native-vision-camera:preReleaseBuild UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-safe-area-context:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-safe-area-context:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-screens:preReleaseBuild UP-TO-DATE
+> Task :react-native-worklets:assertMinimalReactNativeVersionTask
+> Task :react-native-worklets:assertNewArchitectureEnabledTask SKIPPED
+> Task :react-native-worklets:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-worklets:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-worklets:prepareWorkletsHeadersForPrefabs UP-TO-DATE
+> Task :react-native-worklets:preBuild
+> Task :react-native-worklets:preReleaseBuild
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask
+> Task :react-native-reanimated:assertNewArchitectureEnabledTask SKIPPED
+> Task :react-native-screens:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-vision-camera:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-vision-camera:generateJsonModelRelease
+> Task :react-native-vision-camera:prefabReleaseConfigurePackage UP-TO-DATE
+> Task :react-native-worklets:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-vision-camera:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-vision-camera:externalNativeBuildRelease
+> Task :react-native-vision-camera:prefabReleasePackage UP-TO-DATE
+> Task :react-native-svg:preReleaseBuild UP-TO-DATE
+> Task :react-native-svg:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-svg:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-svg:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-vector-icons:preReleaseBuild UP-TO-DATE
+> Task :react-native-vector-icons:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-vector-icons:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-vector-icons:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-vision-camera:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-vision-camera:mergeReleaseNativeLibs UP-TO-DATE
+> Task :react-native-vision-camera:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-webview:preReleaseBuild UP-TO-DATE
+> Task :react-native-webview:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-webview:mergeReleaseNativeLibs NO-SOURCE
+> Task :react-native-webview:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-community_datetimepicker:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-community_datetimepicker:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-screens:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-community_datetimepicker:generateReleaseResValues UP-TO-DATE
+> Task :react-native-screens:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-community_datetimepicker:generateReleaseResources UP-TO-DATE
+> Task :react-native-screens:mergeReleaseNativeLibs UP-TO-DATE
+> Task :react-native-screens:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-gesture-handler:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-gesture-handler:generateReleaseResValues UP-TO-DATE
+> Task :react-native-gesture-handler:generateReleaseResources UP-TO-DATE
+> Task :react-native-gesture-handler:packageReleaseResources UP-TO-DATE
+> Task :react-native-community_datetimepicker:packageReleaseResources UP-TO-DATE
+> Task :react-native-reanimated:assertWorkletsVersionTask
+> Task :react-native-reanimated:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-reanimated:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs UP-TO-DATE
+> Task :react-native-reanimated:preBuild
+> Task :app:preBuild
+> Task :app:preReleaseBuild
+> Task :react-native-reanimated:preReleaseBuild
+> Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-reanimated:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-reanimated:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-reanimated:generateReleaseResValues UP-TO-DATE
+> Task :react-native-reanimated:generateReleaseResources UP-TO-DATE
+> Task :react-native-reanimated:packageReleaseResources UP-TO-DATE
+> Task :react-native-worklets:buildCMakeRelWithDebInfo[arm64-v8a][worklets]
+> Task :react-native-worklets:externalNativeBuildRelease
+> Task :react-native-worklets:generateJsonModelRelease
+> Task :react-native-worklets:prefabReleaseConfigurePackage
+> Task :react-native-worklets:prefabReleasePackage UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :react-native-worklets:mergeReleaseNativeLibs UP-TO-DATE
+> Task :react-native-worklets:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-worklets:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-worklets:generateReleaseResValues UP-TO-DATE
+> Task :react-native-worklets:generateReleaseResources UP-TO-DATE
+> Task :react-native-worklets:packageReleaseResources UP-TO-DATE
+> Task :react-native-worklets:parseReleaseLocalResources
+> Task :react-native-gesture-handler:parseReleaseLocalResources
+> Task :react-native-community_datetimepicker:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-reanimated:parseReleaseLocalResources
+> Task :react-native-worklets:generateReleaseRFile
+> Task :react-native-worklets:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-community_datetimepicker:parseReleaseLocalResources
+> Task :react-native-gesture-handler:generateReleaseRFile
+> Task :react-native-svg:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-svg:generateReleaseResValues UP-TO-DATE
+> Task :react-native-svg:generateReleaseResources UP-TO-DATE
+> Task :react-native-reanimated:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-reanimated:generateJsonModelRelease
+> Task :react-native-svg:packageReleaseResources UP-TO-DATE
+> Task :react-native-reanimated:prefabReleaseConfigurePackage UP-TO-DATE
+> Task :react-native-svg:parseReleaseLocalResources
+> Task :react-native-community_datetimepicker:generateReleaseRFile
+> Task :react-native-reanimated:buildCMakeRelWithDebInfo[arm64-v8a][reanimated]
+> Task :react-native-reanimated:externalNativeBuildRelease
+> Task :react-native-reanimated:prefabReleasePackage UP-TO-DATE
+> Task :react-native-reanimated:mergeReleaseNativeLibs UP-TO-DATE
+> Task :react-native-reanimated:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-gesture-handler:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :app:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-gesture-handler:buildCMakeRelWithDebInfo[arm64-v8a]
+> Task :react-native-gesture-handler:mergeReleaseNativeLibs UP-TO-DATE
+> Task :react-native-gesture-handler:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-reanimated:generateReleaseRFile
+> Task :react-native-reanimated:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-svg:generateReleaseRFile
+> Task :react-native-svg:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-community_datetimepicker:compileReleaseKotlin
+> Task :react-native-worklets:compileReleaseJavaWithJavac
+> Task :app:buildCMakeRelWithDebInfo[arm64-v8a]
+C/C++: ninja: Entering directory `C:\Kwik\KwikCheck\android\app\.cxx\RelWithDebInfo\4m2r6j20\arm64-v8a'
+C/C++: C:\Users\DeLL\AppData\Local\Android\Sdk\ndk\26.1.10909125\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android26 --sysroot=C:/Users/DeLL/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DRN_SERIALIZABLE_STATE -IC:/Kwik/KwikCheck/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/. -IC:/Kwik/KwikCheck/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/react/renderer/components/rnasyncstorage -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b85f62a599074afc3b2ec6cfb7884973/transformed/fbjni-0.7.0/prefab/modules/fbjni/include -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/jsi/include -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/reactnative/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -Wall -Werror -fexceptions -frtti -std=c++20 -DFOLLY_NO_CONFIG=1 -DLOG_TAG=\"ReactNative\" -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -MD -MT rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/Props.cpp.o -MF rnasyncstorage_autolinked_build\CMakeFiles\react_codegen_rnasyncstorage.dir\react\renderer\components\rnasyncstorage\Props.cpp.o.d -o rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir/react/renderer/components/rnasyncstorage/Props.cpp.o -c C:/Kwik/KwikCheck/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/react/renderer/components/rnasyncstorage/Props.cpp
+C/C++: In file included from C:/Kwik/KwikCheck/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/react/renderer/components/rnasyncstorage/Props.cpp:13:
+C/C++: In file included from C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/reactnative/include/react/renderer/core/propsConversions.h:15:
+C/C++: C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/reactnative/include/react/renderer/core/graphicsConversions.h:71:19: error: no member named 'format' in namespace 'std'
+C/C++:       return std::format("{}%", dimension.value);
+C/C++:              ~~~~~^
+C/C++: 1 error generated.
+
+> Task :react-native-svg:compileReleaseJavaWithJavac
+
+> Task :react-native-worklets:compileReleaseJavaWithJavac
+Note: C:\Kwik\KwikCheck\node_modules\react-native-worklets\android\src\main\java\com\swmansion\worklets\WorkletsMessageQueueThreadBase.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Kwik\KwikCheck\node_modules\react-native-worklets\android\src\main\java\com\swmansion\worklets\WorkletsPackage.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-worklets:bundleLibCompileToJarRelease UP-TO-DATE
+
+> Task :app:buildCMakeRelWithDebInfo[arm64-v8a]
+C/C++: C:\Users\DeLL\AppData\Local\Android\Sdk\ndk\26.1.10909125\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android26 --sysroot=C:/Users/DeLL/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DRN_SERIALIZABLE_STATE -IC:/Kwik/KwikCheck/node_modules/@react-native-community/datetimepicker/android/build/generated/source/codegen/jni/. -IC:/Kwik/KwikCheck/node_modules/@react-native-community/datetimepicker/android/build/generated/source/codegen/jni/react/renderer/components/RNDateTimePickerCGen -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b85f62a599074afc3b2ec6cfb7884973/transformed/fbjni-0.7.0/prefab/modules/fbjni/include -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/jsi/include -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/reactnative/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -Wall -Werror -fexceptions -frtti -std=c++20 -DFOLLY_NO_CONFIG=1 -DLOG_TAG=\"ReactNative\" -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -MD -MT RNDateTimePickerCGen_autolinked_build/CMakeFiles/react_codegen_RNDateTimePickerCGen.dir/react/renderer/components/RNDateTimePickerCGen/Props.cpp.o -MF RNDateTimePickerCGen_autolinked_build\CMakeFiles\react_codegen_RNDateTimePickerCGen.dir\react\renderer\components\RNDateTimePickerCGen\Props.cpp.o.d -o RNDateTimePickerCGen_autolinked_build/CMakeFiles/react_codegen_RNDateTimePickerCGen.dir/react/renderer/components/RNDateTimePickerCGen/Props.cpp.o -c C:/Kwik/KwikCheck/node_modules/@react-native-community/datetimepicker/android/build/generated/source/codegen/jni/react/renderer/components/RNDateTimePickerCGen/Props.cpp
+C/C++: In file included from C:/Kwik/KwikCheck/node_modules/@react-native-community/datetimepicker/android/build/generated/source/codegen/jni/react/renderer/components/RNDateTimePickerCGen/Props.cpp:13:
+C/C++: In file included from C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/reactnative/include/react/renderer/core/propsConversions.h:15:
+C/C++: C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/reactnative/include/react/renderer/core/graphicsConversions.h:71:19: error: no member named 'format' in namespace 'std'
+C/C++:       return std::format("{}%", dimension.value);
+C/C++:              ~~~~~^
+C/C++: 1 error generated.
+C/C++: C:\Users\DeLL\AppData\Local\Android\Sdk\ndk\26.1.10909125\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android26 --sysroot=C:/Users/DeLL/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DRN_SERIALIZABLE_STATE -IC:/Kwik/KwikCheck/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/. -IC:/Kwik/KwikCheck/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b85f62a599074afc3b2ec6cfb7884973/transformed/fbjni-0.7.0/prefab/modules/fbjni/include -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/jsi/include -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/reactnative/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -Wall -Werror -fexceptions -frtti -std=c++20 -DFOLLY_NO_CONFIG=1 -DLOG_TAG=\"ReactNative\" -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -MD -MT rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir/react/renderer/components/rngesturehandler_codegen/Props.cpp.o -MF rngesturehandler_codegen_autolinked_build\CMakeFiles\react_codegen_rngesturehandler_codegen.dir\react\renderer\components\rngesturehandler_codegen\Props.cpp.o.d -o rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir/react/renderer/components/rngesturehandler_codegen/Props.cpp.o -c C:/Kwik/KwikCheck/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/Props.cpp
+C/C++: In file included from C:/Kwik/KwikCheck/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/Props.cpp:13:
+C/C++: In file included from C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/reactnative/include/react/renderer/core/propsConversions.h:15:
+C/C++: C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/reactnative/include/react/renderer/core/graphicsConversions.h:71:19: error: no member named 'format' in namespace 'std'
+C/C++:       return std::format("{}%", dimension.value);
+C/C++:              ~~~~~^
+C/C++: 1 error generated.
+
+> Task :react-native-community_datetimepicker:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-community_datetimepicker:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-gesture-handler:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-permissions:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-permissions:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-permissions:generateReleaseResValues UP-TO-DATE
+> Task :react-native-permissions:generateReleaseResources UP-TO-DATE
+> Task :react-native-permissions:packageReleaseResources UP-TO-DATE
+> Task :react-native-permissions:parseReleaseLocalResources
+> Task :react-native-permissions:generateReleaseRFile
+
+> Task :react-native-reanimated:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-reanimated:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :react-native-permissions:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-safe-area-context:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-safe-area-context:generateReleaseResValues UP-TO-DATE
+> Task :react-native-safe-area-context:generateReleaseResources UP-TO-DATE
+> Task :react-native-safe-area-context:packageReleaseResources UP-TO-DATE
+> Task :react-native-safe-area-context:parseReleaseLocalResources
+> Task :react-native-safe-area-context:generateReleaseRFile
+
+> Task :react-native-svg:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-svg:bundleLibCompileToJarRelease UP-TO-DATE
+
+> Task :react-native-permissions:compileReleaseKotlin
+w: file:///C:/Kwik/KwikCheck/node_modules/react-native-permissions/android/src/main/java/com/zoontek/rnpermissions/RNPermissionsPackage.kt:3:8 'class TurboReactPackage : BaseReactPackage' is deprecated. Use BaseReactPackage instead.
+w: file:///C:/Kwik/KwikCheck/node_modules/react-native-permissions/android/src/main/java/com/zoontek/rnpermissions/RNPermissionsPackage.kt:9:30 'class TurboReactPackage : BaseReactPackage' is deprecated. Use BaseReactPackage instead.
+w: file:///C:/Kwik/KwikCheck/node_modules/react-native-permissions/android/src/main/java/com/zoontek/rnpermissions/RNPermissionsPackage.kt:22:24 'constructor(name: String, className: String, canOverrideExistingModule: Boolean, needsEagerInit: Boolean, hasConstants: Boolean, isCxxModule: Boolean, isTurboModule: Boolean): ReactModuleInfo' is deprecated. This constructor is deprecated and will be removed in the future. Use ReactModuleInfo(String, String, boolean, boolean, boolean, boolean)].
+
+> Task :react-native-safe-area-context:compileReleaseKotlin
+w: file:///C:/Kwik/KwikCheck/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:9:8 'class UIManagerModule : ReactContextBaseJavaModule, OnBatchCompleteListener, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+w: file:///C:/Kwik/KwikCheck/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:50:54 'class UIManagerModule : ReactContextBaseJavaModule, OnBatchCompleteListener, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+w: file:///C:/Kwik/KwikCheck/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:59:23 'val uiImplementation: UIImplementation!' is deprecated. Deprecated in Java.
+w: file:///C:/Kwik/KwikCheck/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaViewShadowNode.kt:9:32 'class LayoutShadowNode : ReactShadowNodeImpl' is deprecated. Deprecated in Java.
+w: file:///C:/Kwik/KwikCheck/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaViewShadowNode.kt:110:61 'class NativeViewHierarchyOptimizer : Any' is deprecated. Deprecated in Java.
+
+> Task :react-native-permissions:compileReleaseJavaWithJavac
+> Task :react-native-permissions:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-safe-area-context:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-screens:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-screens:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-screens:generateReleaseResValues UP-TO-DATE
+> Task :react-native-screens:generateReleaseResources UP-TO-DATE
+> Task :react-native-screens:packageReleaseResources UP-TO-DATE
+> Task :react-native-screens:parseReleaseLocalResources
+> Task :react-native-screens:generateReleaseRFile
+> Task :react-native-safe-area-context:compileReleaseJavaWithJavac
+> Task :react-native-safe-area-context:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :react-native-screens:javaPreCompileRelease UP-TO-DATE
+> Task :react-native-vision-camera:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-vision-camera:generateReleaseBuildConfig UP-TO-DATE
+> Task :react-native-vision-camera:generateReleaseResValues UP-TO-DATE
+> Task :react-native-vision-camera:generateReleaseResources UP-TO-DATE
+> Task :react-native-vision-camera:packageReleaseResources UP-TO-DATE
+> Task :react-native-vision-camera:parseReleaseLocalResources
+> Task :react-native-vision-camera:generateReleaseRFile
+
+> Task :app:buildCMakeRelWithDebInfo[arm64-v8a]
+C/C++: C:\Users\DeLL\AppData\Local\Android\Sdk\ndk\26.1.10909125\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android26 --sysroot=C:/Users/DeLL/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DRN_SERIALIZABLE_STATE -Dappmodules_EXPORTS -IC:/Kwik/KwikCheck/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup -IC:/Kwik/KwikCheck/android/app/build/generated/autolinking/src/main/jni -IC:/Kwik/KwikCheck/node_modules/react-native-safe-area-context/android/src/main/jni -IC:/Kwik/KwikCheck/node_modules/react-native-screens/android/src/main/jni -IC:/Kwik/KwikCheck/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/. -IC:/Kwik/KwikCheck/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/react/renderer/components/rnasyncstorage -IC:/Kwik/KwikCheck/node_modules/@react-native-community/datetimepicker/android/build/generated/source/codegen/jni/. -IC:/Kwik/KwikCheck/node_modules/@react-native-community/datetimepicker/android/build/generated/source/codegen/jni/react/renderer/components/RNDateTimePickerCGen -IC:/Kwik/KwikCheck/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/. -IC:/Kwik/KwikCheck/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen -IC:/Kwik/KwikCheck/node_modules/react-native-permissions/android/build/generated/source/codegen/jni/. -IC:/Kwik/KwikCheck/node_modules/react-native-permissions/android/build/generated/source/codegen/jni/react/renderer/components/RNPermissionsSpec -IC:/Kwik/KwikCheck/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/. -IC:/Kwik/KwikCheck/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/react/renderer/components/rnreanimated -IC:/Kwik/KwikCheck/node_modules/react-native-safe-area-context/android/src/main/jni/. -IC:/Kwik/KwikCheck/node_modules/react-native-safe-area-context/android/src/main/jni/../../../../common/cpp -IC:/Kwik/KwikCheck/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni -IC:/Kwik/KwikCheck/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/safeareacontext -IC:/Kwik/KwikCheck/node_modules/react-native-screens/android/src/main/jni/. -IC:/Kwik/KwikCheck/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp -IC:/Kwik/KwikCheck/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni -IC:/Kwik/KwikCheck/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens -IC:/Kwik/KwikCheck/node_modules/react-native-svg/android/src/main/jni/. -IC:/Kwik/KwikCheck/node_modules/react-native-svg/android/src/main/jni/../../../../common/cpp -IC:/Kwik/KwikCheck/node_modules/react-native-svg/android/src/main/jni/../../../build/generated/source/codegen/jni -IC:/Kwik/KwikCheck/node_modules/react-native-svg/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnsvg -IC:/Kwik/KwikCheck/node_modules/react-native-svg/android/src/main/jni -IC:/Kwik/KwikCheck/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/. -IC:/Kwik/KwikCheck/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec -IC:/Kwik/KwikCheck/node_modules/react-native-webview/android/build/generated/source/codegen/jni/. -IC:/Kwik/KwikCheck/node_modules/react-native-webview/android/build/generated/source/codegen/jni/react/renderer/components/RNCWebViewSpec -IC:/Kwik/KwikCheck/node_modules/react-native-worklets/android/build/generated/source/codegen/jni/. -IC:/Kwik/KwikCheck/node_modules/react-native-worklets/android/build/generated/source/codegen/jni/react/renderer/components/rnworklets -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b85f62a599074afc3b2ec6cfb7884973/transformed/fbjni-0.7.0/prefab/modules/fbjni/include -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/jsi/include -isystem C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/reactnative/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -Wall -Werror -fexceptions -frtti -std=c++20 -DFOLLY_NO_CONFIG=1 -DLOG_TAG=\"ReactNative\" -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -MD -MT CMakeFiles/appmodules.dir/C_/Kwik/KwikCheck/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o -MF CMakeFiles\appmodules.dir\C_\Kwik\KwikCheck\android\app\build\generated\autolinking\src\main\jni\autolinking.cpp.o.d -o CMakeFiles/appmodules.dir/C_/Kwik/KwikCheck/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o -c C:/Kwik/KwikCheck/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp
+C/C++: In file included from C:/Kwik/KwikCheck/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp:16:
+C/C++: In file included from C:/Kwik/KwikCheck/node_modules/react-native-safe-area-context/android/src/main/jni/safeareacontext.h:6:
+C/C++: In file included from C:/Kwik/KwikCheck/node_modules/react-native-safe-area-context/android/src/main/jni/../../../../common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewComponentDescriptor.h:3:
+C/C++: In file included from C:/Kwik/KwikCheck/node_modules/react-native-safe-area-context/android/src/main/jni/../../../../common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.h:5:
+C/C++: In file included from C:/Kwik/KwikCheck/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/safeareacontext/Props.h:14:
+C/C++: In file included from C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/reactnative/include/react/renderer/core/propsConversions.h:15:
+C/C++: C:/Users/DeLL/.gradle/caches/9.0.0/transforms/b6cf5fe63d7843ed031aa3363c7fc617/transformed/react-android-0.83.1-release/prefab/modules/reactnative/include/react/renderer/core/graphicsConversions.h:71:19: error: no member named 'format' in namespace 'std'
+C/C++:       return std::format("{}%", dimension.value);
+C/C++:              ~~~~~^
+C/C++: 1 error generated.
+
+> Task :app:buildCMakeRelWithDebInfo[arm64-v8a] FAILED
+> Task :react-native-gesture-handler:compileReleaseKotlin
+w: file:///C:/Kwik/KwikCheck/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/Extensions.kt:8:8 'class UIManagerModule : ReactContextBaseJavaModule, OnBatchCompleteListener, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+w: file:///C:/Kwik/KwikCheck/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/Extensions.kt:13:29 'class UIManagerModule : ReactContextBaseJavaModule, OnBatchCompleteListener, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+w: file:///C:/Kwik/KwikCheck/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/Extensions.kt:14:32 'class UIManagerModule : ReactContextBaseJavaModule, OnBatchCompleteListener, LifecycleEventListener, UIManager' is deprecated. Deprecated in Java.
+w: file:///C:/Kwik/KwikCheck/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerModule.kt:173:53 This synthetic property is based on the getter function 'fun getRootViewTag(): Int' from Kotlin. In the future, synthetic properties will be available only if the base getter function came from Java. Consider replacing this property access with a 'getRootViewTag()' function call.
+
+> Task :react-native-screens:compileReleaseKotlin

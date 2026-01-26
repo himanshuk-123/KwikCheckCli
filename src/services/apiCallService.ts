@@ -9,6 +9,7 @@ const client = axios.create({
   timeout: 30000,
   headers: {
     'Content-Type': 'application/json',
+    'Version': '2',
   },
 });
 
@@ -44,9 +45,15 @@ client.interceptors.response.use(
  * Matches the structure expected by login.api.ts (and future migrations)
  */
 const apiCallService = {
-  post: async (request: { service: string; body: any }) => {
+  post: async (request: { service: string; body: any; headers?: any }) => {
     try {
-      const response = await client.post(request.service, request.body);
+      const config = {
+        headers: {
+          ...request.headers
+        }
+      };
+
+      const response = await client.post(request.service, request.body, config);
       console.log(`Response from ${request.service}: `, response.data)
       return response.data;
     } catch (error: any) {

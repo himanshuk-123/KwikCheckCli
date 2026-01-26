@@ -6,10 +6,10 @@ import CustomDrawerContent from '../components/CustomDrawerContent';
 // SCREENS
 import DashBoard from '../pages/DashBoard/DashBoard'
 import CreateLeads from '../pages/CreateLeads/CreateLeads';
-import ValuatePage from '../pages/Valuate/index'
+import ValuationPage from '../features/valuation/ValuationPage';
 import MyTaskPage from '../pages/MyTasks/index';
-import ValuationCompletedLeads from '../pages/ValuationCompletedLeads/index';
-import LeadsInProgress from '../pages/LeadsInProgress/index';
+import ValuationCompletedLeadsPage from '../features/valuationCompletedLeads/ValuationCompletedLeadsPage';
+import LeadsInProgressPage from '../features/leadInProgress/LeadInProgressPage';
 import CompletedLeads from '../pages/CompletedLeads/CompletedLeads'
 import Account from '../pages/Account/Account';
 import CustomCamera from '../components/CustomCamera'
@@ -60,10 +60,10 @@ const AppNavigator = () => {
       {/* MAIN APP */}
       <Stack.Screen name="MainApp" component={DrawerNavigator} options={{ headerShown: false }} />
       <Stack.Screen name="My Tasks" component={MyTaskPage} options={{ title: "My Tasks" }} />
-      <Stack.Screen name="Valuate" component={ValuatePage} options={{ title: "Valuate" }} />
+      <Stack.Screen name="Valuate" component={ValuationPage} options={{ title: "Valuate" }} />
       <Stack.Screen name="Create Leads" component={CreateLeads} options={{ title: "Create Leads" }} />
-      <Stack.Screen name="LeadsInProgress" component={LeadsInProgress} options={{ title: "Leads In Progress " }} />
-      <Stack.Screen name="ValuationCompletedLeads" component={ValuationCompletedLeads} options={{ title: "Completed Leads" }} />
+      <Stack.Screen name="LeadsInProgress" component={LeadsInProgressPage} options={{ title: "Leads In Progress " }} />
+      <Stack.Screen name="ValuationCompletedLeads" component={ValuationCompletedLeadsPage} options={{ title: "Completed Leads" }} />
       <Stack.Screen name="Camera" component={CustomCamera} options={{ title: "Camera" }} />
       <Stack.Screen name="VehicleDetails" component={VehicleDetails} options={{ headerShown: false }} />
       <Stack.Screen name="CreateLeads" component={CreateLeads} options={{ title: "Create Leads" }} />

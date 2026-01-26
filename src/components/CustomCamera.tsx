@@ -14,6 +14,8 @@ import {
   useCameraPermission,
 } from "react-native-vision-camera";
 import AntDesign from "react-native-vector-icons/AntDesign";
+import { uploadValuationImageApi } from "../features/valuation/api/valuation.api";
+import { ToastAndroid } from "react-native";
 
 const CustomCamera = ({ route }: { route: any }) => {
   const cameraRef = useRef<Camera>(null);
@@ -63,16 +65,70 @@ const CustomCamera = ({ route }: { route: any }) => {
     }
   };
 
+  /* ---------- HELPERS ---------- */
+  const readAsBase64 = async (uri: string): Promise<string | null> => {
+    try {
+      const response = await fetch(uri);
+      const blob = await response.blob();
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => {
+          const base64data = reader.result as string;
+          // Remove data:image/jpeg;base64, prefix if present
+          resolve(base64data.split(',')[1] || base64data);
+        };
+        reader.onerror = reject;
+        reader.readAsDataURL(blob);
+      });
+    } catch (e) {
+      console.error("Base64 conversion failed", e);
+      return null;
+    }
+  };
+
   /* ---------- PROCEED ---------- */
-  const handleProceed = () => {
+  const handleProceed = async () => {
     if (!imageUri) return;
 
+    // 1. Prepare Navigation Params
+    // Check if we need to show modal (passed from previous screen or determined here? 
+    // CLI structure implies ValuationPage handles modal logic based on step data, 
+    // so we pass a flag if needed. For now, let's just return success).
+
+    // Navigate back IMMEDIATELY
     navigation.navigate("Valuate", {
       id,
       vehicleType,
       imageUri,
       side,
+      // Pass other params if needed for Modal trigger
     });
+
+    // 2. Background Upload (Fire and Forget)
+    (async () => {
+      try {
+        const base64 = await readAsBase64(imageUri);
+        if (!base64) return;
+
+        // Mock location or fetch if possible (keeping it simple and fast as requested)
+        const location = { lat: '0', long: '0', timeStamp: new Date().toISOString() };
+
+        // Construct dynamic param name
+        const { appColumn } = route.params || {};
+        const paramName = appColumn ? `${appColumn}Base64` : 'OtherBase64';
+
+        await uploadValuationImageApi(
+          base64,
+          paramName,
+          id,
+          vehicleType,
+          location
+        );
+        ToastAndroid.show("Image uploaded in background", ToastAndroid.SHORT);
+      } catch (e) {
+        console.error("Background upload failed", e);
+      }
+    })();
   };
 
   /* ---------- LOADER ---------- */
